@@ -57,4 +57,3 @@ Exploratory Data Analysis
 Reproducible Research
 Statistical Inference
 
-### Something Else ###
