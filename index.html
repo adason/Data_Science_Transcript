@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Data Science by adason</title>
+    <title>Data Science Transcript by adason</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -31,8 +31,8 @@
 
       <section>
         <div id="title">
-          <h1>Data Science</h1>
-          <p>The Road So Far</p>
+          <h1>Data Science Transcript</h1>
+          <p>You-Cyuan Jhang</p>
           <hr>
           <span class="credits left">Project maintained by <a href="https://github.com/adason">adason</a></span>
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
@@ -41,94 +41,124 @@
         <h2>
 <a name="background" class="anchor" href="#background"><span class="octicon octicon-link"></span></a>Background</h2>
 
-<ul>
-<li>I have background in computational physics.</li>
-<li>Programming in Ruby, C/C++; Visualization and analysis in C++ and R.</li>
-<li>Experience in numerical simulations.</li>
-<li>Use statistical method for research and data visualization.</li>
-<li>Fill in the theoretical and technical background for data scientist.</li>
-<li>This is my document inspired from <a href="http://datasciencemasters.org">the open-source data sciencee</a> and <a href="http://machinelearningmastery.com/build-a-machine-learning-portfolio">this blog post</a>.</li>
-<li>Used to provide so a quick summary of my learning path.</li>
-</ul><h2>
-<a name="highlights" class="anchor" href="#highlights"><span class="octicon octicon-link"></span></a>Highlights</h2>
+<p>In my Ph.D career, I have been working on the <a href="http://en.wikipedia.org/wiki/Lattice_QCD">numerical simulations</a> of <a href="http://en.wikipedia.org/wiki/Quantum_chromodynamics">quantum chromodynamics</a>, which studies the behavior of <a href="http://en.wikipedia.org/wiki/Quark">quarks</a> and <a href="http://en.wikipedia.org/wiki/Gluon">gluons</a> under strong the <a href="http://en.wikipedia.org/wiki/Strong_interaction">strong interaction</a>. Research in this area usually involves creating programs that will run on 1000+ cores clusters, waiting for weeks or longer before one can extract meaningful physical parameters to compare with experimental results. This makes me comfortable with C/C++ programming in Linux/Unix distributed systems, scripting in Ruby to provide enough automation, as well as simple statistics and visualization in R to produce static reports.</p>
 
-<ul>
-<li>Completed Coursera Data Science Specialization, all courses with distinction.</li>
-<li>Very Positive Feedback in Peer Reviewed Course Project and the Shiny Web App</li>
-<li>Kaggle Competition</li>
-<li>Statistical Learning, Algorithms, Database, Big Data</li>
-</ul><h2>
-<a name="projects" class="anchor" href="#projects"><span class="octicon octicon-link"></span></a>Projects</h2>
-
-<h3>
-<a name="completed" class="anchor" href="#completed"><span class="octicon octicon-link"></span></a>Completed</h3>
-
-<ul>
-<li>Kaggle Competition: Allstate Purchase Prediction Challenge</li>
-<li>Weight Lifting Exercise Dataset</li>
-<li>Severe Weather Events Analysis</li>
-</ul><h3>
-<a name="on-going" class="anchor" href="#on-going"><span class="octicon octicon-link"></span></a>On Going</h3>
+<p>However, my academic track didn't provide me with enough theoretical and technical knowledge as a data scientists. To think like a data scientist, one needs to have solid understanding of statistics and machine learning algorithms, as well as database / big data systems. Fortunately, the <a href="http://en.wikipedia.org/wiki/Massive_open_online_course">MOOCs</a>, e-books and online blogs can provide valuable and free resources for self-learner. Inspired from the <a href="http://datasciencemasters.org">open-source data science masters</a>, I started to learn and sharpen these data science skills. Related projects and "course" achievements will be summarized in this "transcript". </p>
 
 <h2>
+<a name="projects" class="anchor" href="#projects"><span class="octicon octicon-link"></span></a>Projects</h2>
+
+<ul>
+<li>
+<p>Kaggle Allstate Purchase Prediction Challenge</p>
+
+<ul>
+<li>Used regularized regressions and neural networks on customer's quote histories to perform structured predictions of their final purchases.</li>
+<li>Ranked 315/1570 on public leader-board, less than 1% score difference form the first rank.</li>
+</ul>
+</li>
+<li>
+<p>Weight Lifting Exercise Machine Learning Prediction</p>
+
+<ul>
+<li>Performed exercise pattern recognition from accelerometer and gyroscope time-series data.</li>
+<li>Applied principle component analysis to reduce sensor correlations. Built prediction models using bagged / boosted decision trees to yield a comparable accuracy.</li>
+</ul>
+</li>
+<li>
+<p>Severe Weather Events Analysis</p>
+
+<ul>
+<li>Analyzed economic damages caused by severe weather events in the United State from 1950 to 2011.</li>
+<li>Utilized regular expressions to parse 1000+ different weather event names, aggregated the damages and grouped into different states. Applied data manipulation libraries in R to process the raw data.</li>
+</ul>
+</li>
+</ul><h2>
 <a name="data-science-path" class="anchor" href="#data-science-path"><span class="octicon octicon-link"></span></a>Data Science Path</h2>
 
 <h3>
 <a name="math" class="anchor" href="#math"><span class="octicon octicon-link"></span></a>Math</h3>
 
 <ul>
-<li>Introduction to Mathematical Statistics With Application [^1]</li>
-<li>Linear Algebra, Ordinary/Partial Differential Equations, Group Theory</li>
-<li>Statistical Inference</li>
-<li>Regression</li>
+<li>Mathematical Statistics -- <a href="http://www.ntu.edu.tw/engv4/index.html">NTU</a> | <a href="http://books.google.com/books?id=i-cTAQAACAAJ&amp;printsec=frontcover&amp;dq=editions:ISBN0495110817">Book</a>
+</li>
+<li>Linear Algebra, Differential Equations, Group Theory -- <a href="http://www.ntu.edu.tw/engv4/index.html">NTU</a> | <a href="http://www.cmu.edu/index.shtml">CMU</a>
+</li>
+<li>Statistical Inference -- <a href="https://www.coursera.org/course/statinference">Data Science Specialization</a> | <a href="https://dl.dropboxusercontent.com/u/4109265/Certifications/Statistical_Inference.pdf">Certification</a>
+</li>
+<li>Regression Models -- <a href="https://www.coursera.org/course/regmods">Data Science Specialization</a> | <a href="https://dl.dropboxusercontent.com/u/4109265/Certifications/Regression_Models.pdf">Certification</a>
+</li>
 </ul><h3>
 <a name="machine-learning" class="anchor" href="#machine-learning"><span class="octicon octicon-link"></span></a>Machine Learning</h3>
 
 <ul>
-<li>[<a href="https://stanford.edu">Stanford Edx</a>] Statistical Learning <a href="https://github.com/Stanford" class="user-mention">@Stanford</a>
-Official Certificate</li>
-<li>[<a href="http://www-bcf.usc.edu/%7Egareth/ISL/">Book</a>] An Introduction to Statistical Learning</li>
-<li>[<a href="http://statweb.stanford.edu/%7Etibs/ElemStatLearn/">Book</a>] The Elements of Statistical Learning (Reference)</li>
+<li>Statistical Learning -- <a href="https://class.stanford.edu/courses/HumanitiesScience/StatLearning/Winter2014/about">Stanford / OpenEdx</a> | <a href="https://dl.dropboxusercontent.com/u/4109265/Certifications/Statistical_Learning.pdf">Certification</a>
+</li>
+<li>An Introduction to Statistical Learning -- <a href="http://www-bcf.usc.edu/%7Egareth/ISL/">Book</a>
+</li>
+<li>The Elements of Statistical Learning (Reference) -- <a href="http://statweb.stanford.edu/%7Etibs/ElemStatLearn/">Book</a>
+</li>
 </ul><h3>
 <a name="algorithm" class="anchor" href="#algorithm"><span class="octicon octicon-link"></span></a>Algorithm</h3>
 
 <ul>
-<li>[<a href="https://www.coursera.org/">Coursera</a>] Algorithms: Design and Analysis, Part 1 <a href="https://dl.dropboxusercontent.com/u/4109265/Certifications/Algorithms__Design_and_Analysis_Part1.pdf">Certificate</a>
+<li>Algorithms: Design and Analysis, Part 1 -- <a href="https://www.coursera.org/">Stanford / Coursera</a> | <a href="https://dl.dropboxusercontent.com/u/4109265/Certifications/Algorithms__Design_and_Analysis_Part1.pdf">Certification</a>
 </li>
-<li>[<a href="https://www.coursera.org/">Coursera</a>] Algorithms: Design and Analysis, Part 2</li>
+<li>Algorithms: Design and Analysis, Part 2 -- <a href="https://www.coursera.org/">Stanford / Coursera</a> | in progress</li>
 </ul><h3>
-<a name="databasebig-data" class="anchor" href="#databasebig-data"><span class="octicon octicon-link"></span></a>Database/Big Data</h3>
+<a name="database--big-data" class="anchor" href="#database--big-data"><span class="octicon octicon-link"></span></a>Database / Big Data</h3>
 
 <ul>
-<li>[<a href="https://www.coursera.org/">Coursera</a>] Introduction to Databases</li>
-<li>[<a href="https://www.coursera.org/">Coursera</a>] Introduction to Data Science
+<li>Introduction to Databases -- <a href="https://www.coursera.org/">Stanford / Coursera</a> | in progress</li>
+<li>Introduction to Data Science -- <a href="https://www.coursera.org/">UW / Coursera</a> | in progress
 
 <ul>
-<li>SQL</li>
-<li>MapReduce/Hadoop/Pig</li>
+<li>SQL, MapReduce/Hadoop/Pig</li>
 </ul>
 </li>
-<li>[<a href="http://infolab.stanford.edu/%7Eullman/mmds.html">Book</a>] Mining of Massive Data Sets</li>
-</ul><h3>
-<a name="python" class="anchor" href="#python"><span class="octicon octicon-link"></span></a>Python</h3>
-
-<ul>
-<li>[Sample Code] Twitter Sentiment Analysis <a href="">github</a>
+<li>Mining of Massive Data Sets (Chapter 2) -- <a href="http://infolab.stanford.edu/%7Eullman/mmds.html">Book</a>
 </li>
-<li>[Sample Code] </li>
 </ul><h3>
 <a name="r" class="anchor" href="#r"><span class="octicon octicon-link"></span></a>R</h3>
 
 <ul>
-<li>R Programming </li>
-<li>Getting and Cleaning Data</li>
-<li>Exploratory Data Analysis</li>
-<li>Reproducible Research</li>
-</ul><p>[^1]: Cite here</p>
+<li>R Programming -- <a href="https://www.coursera.org/course/rprog">Data Science Specialization</a> | <a href="https://dl.dropboxusercontent.com/u/4109265/Certifications/R_Programming.pdf">Certification</a>
+</li>
+<li>Getting and Cleaning Data -- <a href="https://www.coursera.org/course/getdata">Data Science Specialization</a> | <a href="https://dl.dropboxusercontent.com/u/4109265/Certifications/Getting_and_Cleaning_Data.pdf">Certification</a>
+</li>
+<li>Exploratory Data Analysis -- <a href="https://www.coursera.org/course/exdata">Data Science Specialization</a> | <a href="https://dl.dropboxusercontent.com/u/4109265/Certifications/Exploratory_Data_Analysis.pdf">Certification</a>
+</li>
+<li>Reproducible Research -- <a href="https://www.coursera.org/course/repdata">Data Science Specialization</a> | <a href="https://dl.dropboxusercontent.com/u/4109265/Certifications/Reproducible_Research.pdf">Certification</a>
+</li>
+<li>Developing Data Products -- <a href="https://www.coursera.org/course/devdataprod">Data Science Specialization</a> | <a href="https://dl.dropboxusercontent.com/u/4109265/Certifications/Developing_Data_Products.pdf">Certification</a>
+</li>
+<li>Applied Predictive Modeling -- <a href="http://books.google.com/books/about/Applied_Predictive_Modeling.html?id=xYRDAAAAQBAJ">Book</a>
+</li>
+<li>Libraries: <a href="http://cran.r-project.org/web/packages/caret/index.html">caret</a>, <a href="http://cran.r-project.org/web/packages/data.table/index.html">data.table</a>, <a href="http://cran.r-project.org/web/packages/ggplot2/index.html">ggplot2</a>, <a href="http://cran.r-project.org/web/packages/neuralnet/index.html">neuralnet</a>, <a href="http://cran.r-project.org/web/packages/glmnet/index.html">glmnet</a>, <a href="http://rmarkdown.rstudio.com/index.html">Rmarkdown</a>
+</li>
+</ul><h3>
+<a name="python" class="anchor" href="#python"><span class="octicon octicon-link"></span></a>Python</h3>
+
+<ul>
+<li>Twitter Sentiment Analysis -- <a href="https://github.com/adason/datasci_course_materials/tree/master/assignment1">Sample Code / Github</a>
+</li>
+<li>Collections of Graph Algorithms -- <a href="https://github.com/adason/graph_algo">Sample Code / Github</a>
+</li>
+</ul>
       </section>
 
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-53649611-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
   </body>
 </html>
