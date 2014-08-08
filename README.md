@@ -1,73 +1,64 @@
 Background
 ----------
 
-- I have background in computational physics.
-- Programming in Ruby, C/C++; Visualization and analysis in C++ and R.
-- Experience in numerical simulations.
-- Use statistical method for research and data visualization.
-- Fill in the theoretical and technical background for data scientist.
-- This is my document inspired from [the open-source data sciencee](http://datasciencemasters.org) and [this blog post](http://machinelearningmastery.com/build-a-machine-learning-portfolio).
-- Used to provide so a quick summary of my learning path.
+In my Ph.D career, I have been working on the [numerical simulations](http://en.wikipedia.org/wiki/Lattice_QCD) of [quantum chromodynamics](http://en.wikipedia.org/wiki/Quantum_chromodynamics), which studies the behavior of [quarks](http://en.wikipedia.org/wiki/Quark) and [gluons](http://en.wikipedia.org/wiki/Gluon) under strong the [strong interaction](http://en.wikipedia.org/wiki/Strong_interaction). Research in this area usually involves creating programs that will run on 1000+ cores clusters, waiting for weeks or longer before one can extract meaningful physical parameters to compare with experimental results. This makes me comfortable with C/C++ programming in Linux/Unix distributed systems, scripting in Ruby to provide enough automation, as well as simple statistics and visualization in R to produce static reports.
 
-Highlights
-----------
-
-- Completed Coursera Data Science Specialization, all courses with distinction.
-- Very Positive Feedback in Peer Reviewed Course Project and the Shiny Web App
-- Kaggle Competition
-- Statistical Learning, Algorithms, Database, Big Data
+However, my academic track didn't provide me with enough theoretical and technical knowledge as a data scientists. To think like a data scientist, one needs to have solid understanding of statistics and machine learning algorithms, as well as database / big data systems. Fortunately, the [MOOCs](http://en.wikipedia.org/wiki/Massive_open_online_course), e-books and online blogs can provide valuable and free resources for self-learner. Inspired from the [open-source data science masters](http://datasciencemasters.org), I started to learn and sharpen these data science skills. Related projects and "course" achievements will be summarized in this "transcript". 
 
 Projects
 --------
 
-### Completed ###
+- Kaggle Allstate Purchase Prediction Challenge
+    - Used regularized regressions and neural networks on customer's quote histories to perform structured predictions of their final purchases.
+    - Ranked 315/1570 on public leader-board, less than 1% score difference form the first rank.
 
-- Kaggle Competition: Allstate Purchase Prediction Challenge
-- Weight Lifting Exercise Dataset
+- Weight Lifting Exercise Machine Learning Prediction
+    - Performed exercise pattern recognition from accelerometer and gyroscope time-series data.
+    - Applied principle component analysis to reduce sensor correlations. Built prediction models using bagged / boosted decision trees to yield a comparable accuracy.
+
 - Severe Weather Events Analysis
-
-### On Going ###
+    - Analyzed economic damages caused by severe weather events in the United State from 1950 to 2011.
+    - Utilized regular expressions to parse 1000+ different weather event names, aggregated the damages and grouped into different states. Applied data manipulation libraries in R to process the raw data.
 
 Data Science Path
------------------------
+-----------------
 
-### Math ###
+### Math
 
-- Introduction to Mathematical Statistics With Application [^1]
-- Linear Algebra, Ordinary/Partial Differential Equations, Group Theory
-- Statistical Inference
-- Regression
+- Mathematical Statistics -- [NTU](http://www.ntu.edu.tw/engv4/index.html) | [Book](http://books.google.com/books?id=i-cTAQAACAAJ&printsec=frontcover&dq=editions:ISBN0495110817)
+- Linear Algebra, Differential Equations, Group Theory -- [NTU](http://www.ntu.edu.tw/engv4/index.html) | [CMU](http://www.cmu.edu/index.shtml)
+- Statistical Inference -- [Data Science Specialization](https://www.coursera.org/course/statinference) | [Certification](https://dl.dropboxusercontent.com/u/4109265/Certifications/Statistical_Inference.pdf)
+- Regression Models -- [Data Science Specialization](https://www.coursera.org/course/regmods) | [Certification](https://dl.dropboxusercontent.com/u/4109265/Certifications/Regression_Models.pdf)
 
-### Machine Learning ###
+### Machine Learning
 
-- [[Stanford Edx](https://stanford.edu)] Statistical Learning @Stanford
-Official Certificate
-- [[Book](http://www-bcf.usc.edu/~gareth/ISL/)] An Introduction to Statistical Learning
-- [[Book](http://statweb.stanford.edu/~tibs/ElemStatLearn/)] The Elements of Statistical Learning (Reference)
+- Statistical Learning -- [Stanford / OpenEdx](https://class.stanford.edu/courses/HumanitiesScience/StatLearning/Winter2014/about) | [Certification](https://dl.dropboxusercontent.com/u/4109265/Certifications/Statistical_Learning.pdf)
+- An Introduction to Statistical Learning -- [Book](http://www-bcf.usc.edu/~gareth/ISL/)
+- The Elements of Statistical Learning (Reference) -- [Book](http://statweb.stanford.edu/~tibs/ElemStatLearn/)
 
-### Algorithm ###
+### Algorithm
 
-- [[Coursera](https://www.coursera.org/)] Algorithms: Design and Analysis, Part 1 [Certificate](https://dl.dropboxusercontent.com/u/4109265/Certifications/Algorithms__Design_and_Analysis_Part1.pdf)
-- [[Coursera](https://www.coursera.org/)] Algorithms: Design and Analysis, Part 2
+- Algorithms: Design and Analysis, Part 1 -- [Stanford / Coursera](https://www.coursera.org/) | [Certification](https://dl.dropboxusercontent.com/u/4109265/Certifications/Algorithms__Design_and_Analysis_Part1.pdf)
+- Algorithms: Design and Analysis, Part 2 -- [Stanford / Coursera](https://www.coursera.org/) | in progress
 
-### Database/Big Data ###
+### Database / Big Data
 
-- [[Coursera](https://www.coursera.org/)] Introduction to Databases
-- [[Coursera](https://www.coursera.org/)] Introduction to Data Science
-    - SQL
-    - MapReduce/Hadoop/Pig
-- [[Book](http://infolab.stanford.edu/~ullman/mmds.html)] Mining of Massive Data Sets
+- Introduction to Databases -- [Stanford / Coursera](https://www.coursera.org/) | in progress
+- Introduction to Data Science -- [UW / Coursera](https://www.coursera.org/) | in progress
+    - SQL, MapReduce/Hadoop/Pig
+- Mining of Massive Data Sets (Chapter 2) -- [Book](http://infolab.stanford.edu/~ullman/mmds.html)
 
-### Python ###
+### R
 
-- [Sample Code] Twitter Sentiment Analysis [github]()
-- [Sample Code] 
+- R Programming -- [Data Science Specialization](https://www.coursera.org/course/rprog) | [Certification](https://dl.dropboxusercontent.com/u/4109265/Certifications/R_Programming.pdf)
+- Getting and Cleaning Data -- [Data Science Specialization](https://www.coursera.org/course/getdata) | [Certification](https://dl.dropboxusercontent.com/u/4109265/Certifications/Getting_and_Cleaning_Data.pdf)
+- Exploratory Data Analysis -- [Data Science Specialization](https://www.coursera.org/course/exdata) | [Certification](https://dl.dropboxusercontent.com/u/4109265/Certifications/Exploratory_Data_Analysis.pdf)
+- Reproducible Research -- [Data Science Specialization](https://www.coursera.org/course/repdata) | [Certification](https://dl.dropboxusercontent.com/u/4109265/Certifications/Reproducible_Research.pdf)
+- Developing Data Products -- [Data Science Specialization](https://www.coursera.org/course/devdataprod) | [Certification](https://dl.dropboxusercontent.com/u/4109265/Certifications/Developing_Data_Products.pdf)
+- Applied Predictive Modeling -- [Book](http://books.google.com/books/about/Applied_Predictive_Modeling.html?id=xYRDAAAAQBAJ)
+- Libraries: [caret](http://cran.r-project.org/web/packages/caret/index.html), [data.table](http://cran.r-project.org/web/packages/data.table/index.html), [ggplot2](http://cran.r-project.org/web/packages/ggplot2/index.html), [neuralnet](http://cran.r-project.org/web/packages/neuralnet/index.html), [glmnet](http://cran.r-project.org/web/packages/glmnet/index.html), [Rmarkdown](http://rmarkdown.rstudio.com/index.html)
 
-### R ###
+### Python
 
-- R Programming 
-- Getting and Cleaning Data
-- Exploratory Data Analysis
-- Reproducible Research
-
-[^1]: Cite here
+- Twitter Sentiment Analysis -- [Sample Code / Github](https://github.com/adason/datasci_course_materials/tree/master/assignment1)
+- Collections of Graph Algorithms -- [Sample Code / Github](https://github.com/adason/graph_algo)
