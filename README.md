@@ -10,11 +10,11 @@ Projects
 
 - Kaggle Allstate Purchase Prediction Challenge
     - Used regularized regressions and neural networks on customer's quote histories to perform structured predictions of their final purchases.
-    - Ranked 315/1570 on public leader-board, less than 1% score difference form the first rank.
+    - Ranked 315/1570 on public leader-board, less than 1% score difference from the first rank.
 
 - Weight Lifting Exercise Machine Learning Prediction
     - Performed exercise pattern recognition from accelerometer and gyroscope time-series data.
-    - Applied principle component analysis to reduce sensor correlations. Built prediction models using bagged / boosted decision trees to yield a comparable accuracy.
+    - Applied principal component analysis to reduce sensor correlations. Built prediction models using bagged / boosted decision trees to yield a comparable accuracy.
 
 - Severe Weather Events Analysis
     - Analyzed economic damages caused by severe weather events in the United State from 1950 to 2011.
